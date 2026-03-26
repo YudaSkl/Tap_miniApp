@@ -1,0 +1,12 @@
+[
+  {
+    "allowedMethods": ["GET", "HEAD"],
+    "allowedHeaders": ["*"],
+    "allowedOrigins": [
+      "https://web.telegram.org",
+      "https://telegram.org"
+    ],
+    "exposeHeaders": ["ETag"],
+    "maxAgeSeconds": 3600
+  }
+]

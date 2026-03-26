@@ -1,0 +1,23 @@
+{
+  "name": "tap-miniapp-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/local.js",
+    "dev": "tsx watch src/local.ts"
+  },
+  "dependencies": {
+    "@fastify/aws-lambda": "^5.1.4",
+    "@fastify/cors": "^10.0.2",
+    "fastify": "^5.2.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
