@@ -1,52 +1,5 @@
-# Unity — кэш редактора, сборки, локальные артефакты (по шаблону github/gitignore/Unity)
-unity/[Ll]ibrary/
-unity/[Tt]emp/
-unity/[Oo]bj/
-unity/[Bb]uild/
-unity/[Bb]uilds/
-unity/[Ll]ogs/
-unity/[Uu]ser[Ss]ettings/
-unity/[Mm]emoryCaptures/
-unity/[Rr]ecordings/
-unity/[Ll]ocal[Cc]ache/
-unity/SerializedBuildInfo/
-unity/sysinfo.txt
-unity/*.stackdump
-unity/*.tmp
-unity/.plastic/
-unity/*.csproj
-unity/*.unityproj
-unity/*.sln
-unity/*.suo
-unity/*.user
-unity/*.userprefs
-unity/*.pidb
-unity/*.booproj
-unity/*.svd
-unity/*.pdb
-unity/*.mdb
-unity/*.opendb
-unity/*.VC.db
-unity/*.VC.VC.opendb
-unity/.vs/
-unity/.gradle/
-unity/ExportedObj/
-unity/.consulo/
-unity/*.apk
-unity/*.aab
-unity/*.unitypackage
-unity/crashlytics-build.properties
-unity/*.keystore
-unity/*.jks
-
-# Addressables / сгенерированный StreamingAssets
-unity/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-unity/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.hash
-unity/[Aa]ssets/[Ss]treamingAssets/aa.meta
-unity/[Aa]ssets/[Ss]treamingAssets/aa/*
-
-# Плагин JetBrains Rider (автогенерация)
-unity/[Aa]ssets/Plugins/Editor/JetBrains*
+# Unity — вся папка проекта не в репозитории
+unity/
 
 # Node
 backend/node_modules/
