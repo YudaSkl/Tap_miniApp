@@ -23,5 +23,10 @@ async function getProxy() {
 
 export const handler = async (event: unknown, context: unknown) => {
   const p = await getProxy();
-  return p(event, context);
+  return new Promise((resolve, reject) => {
+    p(event, context, (err, result) => {
+      if (err) reject(err);
+      else resolve(result);
+    });
+  });
 };
